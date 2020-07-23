@@ -39,7 +39,7 @@
     "moment-hijri": "^2.1.1",
     "native-base": "^2.8.1",
     "prop-types": "^15.6.1",
-    "querystringify": "1.0.0",
+    "querystringify": "2.0.0",
     "ramda": "^0.25.0",
     "react": "16.6.3",
     "react-native": "0.59.7",
