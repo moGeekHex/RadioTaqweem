@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'QuranKareem' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for QuranKareem
+
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'RNCPushNotificationIOS', :path => '../node_modules/@react-native-community/push-notification-ios'
+
+  pod 'react-native-background-timer', :path => '../node_modules/react-native-background-timer'
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      if target.name == "React"
+        target.remove_from_project
+      end
+    end
+  end
+
+  target 'QuranKareemTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'QuranKareem-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for QuranKareem-tvOS
+
+  target 'QuranKareem-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

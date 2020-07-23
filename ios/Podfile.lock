@@ -1,0 +1,36 @@
+PODS:
+  - React (0.57.8):
+    - React/Core (= 0.57.8)
+  - react-native-background-timer (2.1.1):
+    - React
+  - React/Core (0.57.8):
+    - yoga (= 0.57.8.React)
+  - RNCPushNotificationIOS (1.0.3):
+    - React
+  - yoga (0.57.8.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - react-native-background-timer (from `../node_modules/react-native-background-timer`)
+  - "RNCPushNotificationIOS (from `../node_modules/@react-native-community/push-notification-ios`)"
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  react-native-background-timer:
+    :path: "../node_modules/react-native-background-timer"
+  RNCPushNotificationIOS:
+    :path: "../node_modules/@react-native-community/push-notification-ios"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  react-native-background-timer: bb7a98c8e97fc7c290de2d423dd09ddb73dcbcbb
+  RNCPushNotificationIOS: e063e649fa697b77869c05fd18e370799285db4f
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: c595aba65072bd775bf7b7180aa2de01caf04994
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,5 @@
+import { AppRegistry } from 'react-native';
+
+import widgetTask from './WidgetTask';
+
+AppRegistry.registerHeadlessTask('WidgetTask', () => widgetTask);

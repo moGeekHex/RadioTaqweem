@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">تقويم اذاعة القران الكريم</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="fajer">الفجر</string>
+    <string name="sunrise">الشروق</string>
+    <string name="dhuhur">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="maghreb">المغرب</string>
+    <string name="Ishaa">العشاء</string>
+</resources>
